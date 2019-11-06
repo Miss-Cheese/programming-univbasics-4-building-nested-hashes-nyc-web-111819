@@ -18,6 +18,7 @@ def monopoly_with_third_tier
 			:four_pieces_owned => 200
 		},
 	}
+}
 end
 
 def monopoly_with_fourth_tier
