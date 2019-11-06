@@ -22,6 +22,9 @@ end
 
 def monopoly_with_fourth_tier
   xyz = monopoly_with_third_tier()
-		xyz[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100" 
+		xyz[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100"
+		xyz[:railroads][:names][:pennsylvania_railroad]["mortgage_value"] = "$200"
+		xyz[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$400"
+		xyz[:railroads][:names][:shortline_railroad]["mortgage_value"] = "$800" 
 	xyz
 end
